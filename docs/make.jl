@@ -31,4 +31,7 @@ makedocs(;
     ]
 )
 
-deploydocs(repo = "github.com/itsdfish/AssortiveMatingABM.jl.git")
+deploydocs(;
+    repo = "github.com/itsdfish/AssortiveMatingABM.jl.git",
+    branch = "gh-pages"
+)
