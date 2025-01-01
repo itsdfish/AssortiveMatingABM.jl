@@ -1,3 +1,6 @@
 [deps]
+Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"
 AssortiveMatingABM = "e4da7c70-dfd9-4073-ad5e-fd5bb5e7460e"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"

@@ -1,8 +1,9 @@
 module AssortiveMatingABM
-    using Agents
-    using Distributions
+using Agents
+using Distributions
 
-    export initialize
+export initialize
+export stop
 
-    include("model.jl")
+include("model.jl")
 end

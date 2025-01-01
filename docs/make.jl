@@ -1,12 +1,16 @@
 using AssortiveMatingABM
 using Documenter
 
-DocMeta.setdocmeta!(AssortiveMatingABM, :DocTestSetup, :(using AssortiveMatingABM); recursive=true)
+DocMeta.setdocmeta!(
+    AssortiveMatingABM,
+    :DocTestSetup,
+    :(using AssortiveMatingABM);
+    recursive = true
+)
 
 makedocs(;
-    modules=[AssortiveMatingABM],
-    authors="itsdfish",
-    sitename="AssortiveMatingABM.jl",
+    authors = "itsdfish",
+    sitename = "AssortiveMatingABM.jl",
     format = Documenter.HTML(
         assets = [
             asset(
@@ -20,9 +24,11 @@ makedocs(;
         AssortiveMatingABM
     # Base.get_extension(AssortiveMatingABM, :TuringExt),  
     ],
-    pages=[
+    pages = [
         "Home" => "index.md",
-    ],
+        "Example" => "example.md",
+        "API" => "api.md"
+    ]
 )
 
 deploydocs(repo = "github.com/itsdfish/AssortiveMatingABM.jl.git")
