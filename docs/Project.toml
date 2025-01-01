@@ -1,0 +1,3 @@
+[deps]
+AssortiveMatingABM = "e4da7c70-dfd9-4073-ad5e-fd5bb5e7460e"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
