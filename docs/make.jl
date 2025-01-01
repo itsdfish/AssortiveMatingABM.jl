@@ -5,13 +5,24 @@ DocMeta.setdocmeta!(AssortiveMatingABM, :DocTestSetup, :(using AssortiveMatingAB
 
 makedocs(;
     modules=[AssortiveMatingABM],
-    authors="itsdfish <itsdfish@gmail.com> and contributors",
+    authors="itsdfish",
     sitename="AssortiveMatingABM.jl",
-    format=Documenter.HTML(;
-        edit_link="main",
-        assets=String[],
+    format = Documenter.HTML(
+        assets = [
+            asset(
+            "https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro&display=swap",
+            class = :css
+        )
+        ],
+        collapselevel = 1
     ),
+    modules = [
+        AssortiveMatingABM
+    # Base.get_extension(AssortiveMatingABM, :TuringExt),  
+    ],
     pages=[
         "Home" => "index.md",
     ],
 )
+
+deploydocs(repo = "github.com/itsdfish/AssortiveMatingABM.jl.git")

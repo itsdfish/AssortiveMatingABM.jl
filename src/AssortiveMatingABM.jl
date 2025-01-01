@@ -1,5 +1,8 @@
 module AssortiveMatingABM
+    using Agents
+    using Distributions
 
-# Write your package code here.
+    export initialize
 
+    include("model.jl")
 end
