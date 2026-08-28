@@ -1,7 +1,7 @@
 name = "AssortiveMatingABM"
 uuid = "e4da7c70-dfd9-4073-ad5e-fd5bb5e7460e"
-authors = ["itsdfish <itsdfish@gmail.com> and contributors"]
 version = "1.0.0-DEV"
+authors = ["itsdfish <itsdfish@gmail.com> and contributors"]
 
 [deps]
 Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"
@@ -9,7 +9,7 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
-Agents = "6.2.1"
+Agents = "6.2.1, 7"
 Distributions = "0.25.115"
 Random = "1.11.0"
 julia = "1.6.7"
